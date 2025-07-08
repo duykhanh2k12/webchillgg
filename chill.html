@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Chill 😌</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to top right, #a18cd1, #fbc2eb);
+      font-family: 'Quicksand', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #fff;
+      text-align: center;
+      animation: fadein 2s ease-in;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin-bottom: 2em;
+    }
+
+    @keyframes fadein {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    audio {
+      margin-top: 20px;
+      filter: drop-shadow(0px 0px 5px white);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Chào mừng bạn đến Web Chill 🎧</h1>
+  <p>Thư giãn nhẹ nhàng, hít thở sâu và tận hưởng âm nhạc</p>
+
+  <!-- Nhạc nền chill -->
+  <audio controls autoplay loop>
+    <source src="C:\Users\thuon\Downloads\song.mp3" type="audio/mpeg">
+    Trình duyệt của bạn hỗ trợ phát nhạc.
+  </audio>
+
+  <footer>
+    © 2025 Web Chill | Made by bạn 💙
+  </footer>
+
+</body>
+</html>
